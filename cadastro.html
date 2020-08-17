@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <p><h3>Clientes</h3></p>
+    <form action="php/cadastrar.php" method="POST" name="Cadastro">
+        <label>Nome do Cliente: </label></br></br>
+        <input type="text" name="NomeCliente" size="30"></br></br>
+        <label>Sobrenome do Cliente: </label></br></br>
+        <input type="text" name="SobrenomeCliente" size="45"></br></br>
+        <label>Sexo do Cliente: </label>
+        <select name="Sexo">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+            <option value="N">Nao Declarado</option>
+        </select></br></br>
+        <input type="submit" value="Enviar" name="enviar">
+    </form>
+</body>
+</html>
